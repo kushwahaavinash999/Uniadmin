@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.Logo-Title{
+  display: flex;
+ align-items: center;
+
+}
+
+#logo{
+  height: 80px;
+  width: 80px;
+ border-radius: 50%;
+ margin: 5px;
+
+}
+
+.collage_name{
+  
+  margin-left: 30%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+/* ***********************************************************marquee */
+.latest-news{
+
+  width: auto;
+  background: linear-gradient(#ff8989, #A9ff68);
+  
+}
+
+marquee{
+ 
+  color:blue;
+  
+  }
+
+
+main{
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+
+
+
+
+/* banner */
+.mySlides {
+    display: none;
+}
+
+.slideshow-container .mySlides img {
+    vertical-align: middle;
+    height: 45vh;
+    width: 100%;
+
+
+}
+
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+  max-height: fit-content;
+  
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: rgb(180, 179, 179);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active{
+  background-color:#0d6efd;
+}
+
+
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+  
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+/* ********************************************************* */
+
+.body_box{
+height: 500px;
+display: flex;
+justify-content: space-evenly;
+margin:30px;
+
+}
+
+.card{
+  overflow: scroll
+}
+
+@keyframes card {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+/* footer */
+.foot_box{
+  height: 200px;
+  width: auto;
+  background: linear-gradient(#e66465, #9198e5);
+}
